@@ -12,11 +12,12 @@ function trailingZeros(n) {
 		}else{
 			return count
 		}
-		factorial/=10;
+		factorial= Math.floor(factorial/10);
 	}
 	return count
 }
 
 const input = prompt("Enter a number");
+
 
 alert(trailingZeros(input));
